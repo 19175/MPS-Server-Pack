@@ -1,0 +1,22 @@
+[
+  {
+    "name": "TTSTrust",
+    "notes": [
+      "ExpertNugget",
+      "PackedOcean",
+	  "ChiefArug"
+    ]
+  },
+  {
+    "name": "TTSFilter",
+    "notes": [
+      "badword"
+    ]
+  },
+  {
+    "name": "TTSBan",
+    "notes": [
+      "streamlabs"
+    ]
+  },
+]

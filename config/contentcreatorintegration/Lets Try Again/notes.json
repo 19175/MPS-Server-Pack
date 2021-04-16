@@ -1,0 +1,23 @@
+[
+  {
+    "name": "TTSFilter",
+    "notes": [
+      " badword",
+      "pogchamp",
+      "badword",
+      "wordthatsbad",
+      "wordthatsbad"
+    ]
+  },
+  {
+    "name": "TTSBan",
+    "notes": [
+      "streamelements",
+      "streamlabs"
+    ]
+  },
+  {
+    "name": "noteofawesome",
+    "note": "thisnoteisawesome"
+  }
+]

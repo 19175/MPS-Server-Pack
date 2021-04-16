@@ -1,0 +1,77 @@
+{
+	id: "26878B1EF98A65A8",
+	group: "",
+	order_index: 0,
+	filename: "welcome",
+	title: "Welcome!",
+	default_quest_shape: "",
+	quests: [
+		{
+			icon: {
+				id: "botania:cosmetic_questgiver_mark",
+				Count: 1b,
+				tag: {}
+			},
+			x: -2.5d,
+			y: -5.0d,
+			shape: "octagon",
+			description: [
+				"Hi!",
+				"",
+				"Welcome to the official MPS Modded server",
+				"These quests act as rewards for doing certain things and as introductions into various mods.",
+				"",
+				"Please do try and read the quests, quite often they contain important information.",
+				"",
+				"Most importantly, have FUN (and watch ExpertNugget on Twitch)"
+			],
+			size: 5.0d,
+			id: "619EEE2DF92D79AD",
+			tasks: [{
+				id: "025ECAD9BC50F8E4",
+				type: "checkmark",
+				title: "Hello there!"
+			}],
+			rewards: [{
+				id: "5894CDEF4863A913",
+				type: "command",
+				auto: "invisible",
+				command: '/tellraw @a [{"selector":"@s","color":"yellow"},{"text":" has made the advancement ","color":"white"},{"text":"[Welcome]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Yeah, this isn\'t actually an advancment but still its cool, right?","color":"green"}]}}]',
+				player_command: true
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -9.0d,
+			id: "2F476B20089E9607",
+			tasks: [{
+				id: "756344D5DEF26ED5",
+				type: "checkmark"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -9.0d,
+			description: [
+				"Death is a very important part of Minecraft, but it can get very annoying sometimes",
+				"",
+				"That is why this pack contains the Gravestone mod which spawns a grave where you die.",
+				"",
+				"This grave can be broken only by you and when broken will put all your items back into your inventory where they where.",
+				"",
+				"Occasianly your grave will get Yeetus Deletus in which case it is important to save your Obituary so that a server OP can recover your stuff",
+				"",
+				"",
+				"REMEMBER: Keep your Obituary SAFE in case you need to restore your inventory or you think you can convince Nugget to dig through death files."
+			],
+			dependencies: ["619EEE2DF92D79AD"],
+			id: "223305F49C113326",
+			tasks: [{
+				id: "1E993708F178E3BE",
+				type: "checkmark",
+				title: "Death",
+				icon: "gravestone:gravestone"
+			}]
+		}
+	]
+}

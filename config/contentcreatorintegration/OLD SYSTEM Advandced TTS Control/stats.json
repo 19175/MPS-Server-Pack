@@ -1,0 +1,27 @@
+{
+  "stats": [
+    {
+      "layer": "chat",
+      "type": "message",
+      "count": 192
+    },
+    {
+      "layer": "streamlabs",
+      "type": "bits",
+      "count": 1,
+      "amount": 1.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "host",
+      "count": 1,
+      "amount": 64.0
+    },
+    {
+      "layer": "streamlabs",
+      "type": "subscription",
+      "count": 1,
+      "amount": 1.0
+    }
+  ]
+}
